@@ -1,0 +1,16 @@
+.rich-text-menu-bar .menu__color {
+    flex-direction: column;
+    svg {
+        width: 10px;
+        height: 11px;
+    }
+}
+
+.menu-bar_platform_mobile {
+    .menu-item.menu__color {
+        svg {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}

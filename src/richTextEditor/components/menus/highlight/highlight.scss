@@ -1,0 +1,15 @@
+.rich-text-menu-bar .menu__highlight {
+    flex-direction: column;
+    svg {
+        width: 11px;
+        height: 11px;
+    }
+}
+.menu-bar_platform_mobile {
+    .menu-item.menu__highlight {
+        svg {
+            width: 14px;
+            height: 13px;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.select-jt-video-tip {
+    color: #222;
+}
+
+.rich-text-comp__video-form {
+    .video-from-tip {
+        margin-top: 6px;
+    }
+    .btn-select-jt-video {
+        width: 120px;
+        height: 120px;
+        background-color: #fff;
+        border: 1px dashed #e0e0e0;
+        border-radius: 4px;
+        flex-direction: column;
+        cursor: pointer;
+        &:hover {
+            background-color: #fcfcfc;
+        }
+        .jt-design-comp-icon-Submit {
+            margin-bottom: 8px;
+            width: 20px;
+            height: 20px;
+            color: #666;
+        }
+    }
+}
+.cover-page-portal.m-rich-portal-form {
+    .m-rich-portal-form__body {
+        .rich-text-comp__video-form {
+            .menu-form-item {
+                margin-bottom: 6px;
+            }
+            .menu-form-item_upload {
+                font-size: 14px;
+            }
+            .video-from-tip {
+                font-size: 14px;
+            }
+        }
+    }
+}

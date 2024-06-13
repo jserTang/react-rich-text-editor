@@ -1,0 +1,37 @@
+.rich-text-comp__m-color-palette {
+    .palette-title {
+        margin-right: 9px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+    ul {
+        padding: 0;
+        margin: 0 -2px;
+    }
+    .rich-text-comp__m-color-palette__history {
+        margin-bottom: 14px;
+    }
+    .rich-text-comp__m-color-palette {
+        padding: 18px 0;
+    }
+    .rich-text-comp__m-color-palette__item {
+        position: relative;
+        margin: 4px;
+        float: left;
+        width: 30px;
+        height: 30px;
+        box-sizing: border-box;
+        list-style: none;
+        cursor: pointer;
+        &.clear::after {
+            content: '';
+            width: 1px;
+            height: 39px;
+            position: absolute;
+            top: -6px;
+            left: 13px;
+            background-color: #dd4e40;
+            transform: rotate(45deg);
+        }
+    }
+}

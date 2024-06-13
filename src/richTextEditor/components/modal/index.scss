@@ -1,0 +1,87 @@
+.cover-page-portal.m-rich-portal-form {
+    z-index: 99999;
+    flex-direction: column;
+    background-color: #fff;
+    button {
+        outline: none;
+        border: 0 none;
+        background: #fff;
+    }
+    .m-rich-portal-form__header {
+        padding: 6px 16px;
+        border-bottom: 1px solid #eee;
+        font-size: 18px;
+        button {
+            padding: 0 2px;
+            line-height: 32px;
+            font-size: 16px;
+            font-weight: 300;
+            cursor: pointer;
+            &.submit {
+                color: #1e6ee6;
+            }
+        }
+    }
+    .m-rich-portal-form__body {
+        padding: 16px;
+        font-size: 15px;
+        .menu-form-item {
+            font-size: 15px;
+        }
+    }
+}
+
+.cover-page-portal.m-rich-portal-half {
+    z-index: 99999;
+    .cover-page-portal__content {
+        top: initial;
+        bottom: 0;
+        transform: translate(-50%, 0);
+        height: auto;
+        padding: 12px 16px;
+        background-color: #fff;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.05);
+        .m-rich-portal-half__header {
+            margin-bottom: 12px;
+        }
+        .m-rich-portal-half__header__title {
+            font-size: 18px;
+        }
+        .m-rich-portal-half__header__close {
+            padding: 0;
+            width: 25px;
+            height: 25px;
+            border: 0 none;
+            box-sizing: content-box;
+            background: inherit;
+            outline: none;
+            color: #222;
+            #icon-Close {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
+
+.cover-page-portal.m-rich-portal-form {
+    .m-rich-portal-form__body {
+        .menu-form-item {
+            font-size: 15px;
+            .menu-form-item__input {
+                padding: 13px;
+                font-size: 16px;
+                border: 0 none;
+                background: #f5f5f5;
+            }
+            .menu-form-item__err {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.jt-design-comp-modal-wrap.rich-text-comp__modal {
+    z-index: 9999;
+}
